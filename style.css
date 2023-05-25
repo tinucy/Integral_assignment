@@ -2,8 +2,8 @@ body {
   margin: 0;
 }
 
-.container {
-}
+/* .container {
+} */
 
 .navsection {
   padding: 20px 0;
@@ -21,9 +21,84 @@ body {
 .logonavheader nav a {
   text-decoration: none;
   color: #161616;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .logonavheader nav {
   display: flex;
   gap: 20px;
+}
+
+/* .logonavheader nav :first-child {
+  text-decoration: solid;
+  text-decoration-color: blue;
+} */
+
+.logonavheader nav a :first-child {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-style: thin;
+  text-decoration-thickness: 3px;
+}
+
+.sectionimg {
+  background-image: url("./images/backg_image.jpg");
+  height: 500px;
+  margin-top: 0;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 120px;
+  padding: 20px 0 0px 0px;
+  margin: 0;
+}
+
+.p1 {
+  font-size: 70px;
+  padding: 5px 0 0px 0px;
+  margin: 0;
+}
+
+.h3_1 {
+  padding: 60px;
+  font-weight: lighter;
+}
+
+.butt button {
+  border-radius: 10px;
+  padding: 20px 20px;
+  text-align: center;
+  color: white;
+  background: none;
+  border-color: whitesmoke;
+  font-size: 20px;
+}
+
+.butt :last-child {
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  border-color: none;
+}
+
+.oem {
+  display: flex;
+  background-color: lightgray;
+}
+
+.details {
+  display: grid;
+  background-color: white;
+  grid-gap: 50px;
+  margin: 20px 0px;
+  padding: 50px 50px 120px 40px;
+  grid-template-areas:
+    "div div div"
+    "div div div";
+}
+
+.details div {
+  display: flex;
 }
